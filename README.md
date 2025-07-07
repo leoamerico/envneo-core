@@ -4,8 +4,11 @@ Este repositório contém o **Modelo de Domínio Unificado (UDM)** da arquitetur
 
 ## Estrutura
 core/
+
 ├── model/ # Entidades puras (Device, Alert, UserProfile)
+
 ├── logic/ # Casos de uso (GenerateAlert, AssignDevice)
+
 └── ports/ # Interfaces para gateways e repositórios
 
 ## 🎯 Objetivo
